@@ -12,7 +12,7 @@ public class ServiceTests {
     @Test
     void testGreet() {
         String result = service.greet("World");
-        assertEquals("Hello, Sowmya", result);
+        assertEquals("Hello, World", result);
     }
 
     @Test
